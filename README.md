@@ -4,15 +4,11 @@ File and Folder Compression using Huffman Encoding
 Usage File
 -----
 
-    java HuffmanEncoding encode target destination
-    java HuffmanEncoding encode2 target destination nbTopWords
-    java HuffmanEncoding decode target destination
+    cat moves | java Checker init goal
 
-
-
-Usage Folder
+Usage Solver
 -----
 
-    java Zipper zipper [input directory name] [output file name]
-    java Zipper unzipper [input file name] [output directory name]
+    java Solver init goal
+    java Solver init goal | java Checker init goal
 
